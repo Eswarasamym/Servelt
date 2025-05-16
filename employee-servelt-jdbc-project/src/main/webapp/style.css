@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(183, 201, 201);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.outer>.inner{
+    
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+    justify-content: center;
+   
+    box-shadow: 4px 4px 6px black;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    border: 2px 2px solid black;
+    text-shadow: 5px 4px 6px black;
+    font-size: 20px;
+}
+.btn1{
+    margin-left: 150px;
+    height: 20px;
+}
+
+
